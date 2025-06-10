@@ -1,6 +1,6 @@
 package org.lessons.java.interfaces;
 
-public class Bird extends Animal {
+public class Bird extends Animal implements IFlying {
 
   @Override
   public void verso() {
@@ -10,5 +10,10 @@ public class Bird extends Animal {
   @Override
   public void mangia() {
     System.out.println("Bird is eating insects!");
+  }
+
+  @Override
+  public void fly() {
+    System.out.println("Bird is flying!");
   }
 }
