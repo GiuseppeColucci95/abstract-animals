@@ -11,5 +11,4 @@ public class Eagle extends Animal {
   public void mangia() {
     System.out.println("Eagle is eating something!");
   }
-
 }

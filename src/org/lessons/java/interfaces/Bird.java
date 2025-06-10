@@ -11,5 +11,4 @@ public class Bird extends Animal {
   public void mangia() {
     System.out.println("Bird is eating insects!");
   }
-
 }
